@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/view-luxurious-villa-with-modern-architectural-design_23-2151694108.jpg?t=st=1726232199~exp=1726235799~hmac=a484e47b4556c08f03f994468c7f13fbe5d8b4a587228eb6febe46aab6b9b1aa&w=360");
+    height: 100vh;
+    background-size: cover;
+}
+
+.image {
+    padding: 10px;
+    height: 10%;
+    width: 10%;
+}
+
+.text-card {
+    color: white;
+    font-family: "Times New Roman";
+    padding: 3%;
+    text-align: right;
+    margin-left: auto;
+}
+
+.home-main-heading {
+    font-size: 600%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0f0e46;
+}
+
+.btn {
+    margin-top: 10%;
+    width: 20%;
+    height: 5%;
+    font-size: 24px;
+}
+
+/* .bg-container-1 {
+    background-color: lightblue;
+/* }  */
+
+.apartment-card {
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 2%;
+    font-family: "Times New Roman";
+    border-radius: 5px;
+    color: black;
+    width: 90% ;
+    height: 300px ;
+}
+
+.image{
+    height: 90%;
+    width: 30%;
+}
+
+.btn1 {
+    border-radius: 5px;
+    background-color: #2588BE;
+    width: 60px;
+}
+
+.background-container {
+    background-image: url("https://img.freepik.com/premium-photo/painting-building-with-trees-sign-that-says-apartment_1109006-91748.jpg?w=740");
+    height: auto;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.main-heading {
+    font-family: Bree Serif;
+    color: #ffffff;
+    text-decoration: underline;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.flat-size-card-container {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #7b8794;
+    text-align: left;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 90%;
+}
+
+
+.flat-card-main-heading {
+    font-size: 23px;
+    color: #0f0e46;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.details {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.btn2 {
+    border-radius: 5px;
+    height: 50px;
+    width: 300px !important;
+    margin-left: 1%;
+}
+.btn2:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+img{
+    width: 30%;
+    height: 90%;
+}
+
+.flat-card{
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #7b8794;
+    text-align: left;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 90%;
+}
+
+.image-2{
+    height: 230px;
+    width: 30%;
+}
+
+.carousel-size{
+    height: 280px;
+    width: 35%;
+    padding-left: 1%;
+}
+
+.background-container-1{
+    background-image: url("https://img.freepik.com/free-photo/illustration-anime-city_23-2151779661.jpg?t=st=1726237994~exp=1726241594~hmac=492522b14ea4d085608ca247666dde485c91339013cbe1faa1a135833b34b96d&w=360");
+    height: auto;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.flat-size-card-container-1 {
+    font-family: "Bree Serif";
+    font-size: 12px;
+    color: #7b8794;
+    text-align: left;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    height: 300px;
+    width: 90%;
+}
+
+.background-container-2{
+    background-image: url("https://img.freepik.com/premium-photo/trees-with-large-courtyards-green-lawns_1033579-193574.jpg?w=996");
+    height: auto;
+    background-size: cover;
+    padding-top: 10px;
+}
+.booking-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 15px;
+}  
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn3{
+    width: 200px;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn3:hover {
+    background-color: #218838;
+}
+
+.text-type{
+    font-weight: bold;
+    font-size: 25px;
+}
